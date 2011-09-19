@@ -280,7 +280,7 @@ function(req, res, next) {
     });
 });
 
-server.listen(1389,
+server.listen(389,
 function() {
     debugOut('ldapjs listening at ' + server.url);
 });
